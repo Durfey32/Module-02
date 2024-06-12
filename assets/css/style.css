@@ -167,6 +167,11 @@ main {
   display: block;
 }
 
+.hero-banner img {
+  height: 200px;
+  width: 300px;
+}
+
 .page-wrapper {
   max-width: 88%;
   margin-left: auto;
@@ -184,7 +189,10 @@ main {
   align-items: stretch;
   justify-content: space-between;
 }
-
+  .page-section img{
+  height: 200px;
+  width: 300px;
+}
 .page-section > h2 {
   flex: 0 0 20%;
   text-align: right;
@@ -231,10 +239,12 @@ main {
 }
 
 @media screen and (min-width: 980px) {
-  {}
+  * {display: flex;}
 }
   @media screen and (min-width: 768px) {
-   {}
+  * {
+    display: block;
+  }
   }
 /* portfolio project images */
 /* TODO: Add portfolio project images here*/
