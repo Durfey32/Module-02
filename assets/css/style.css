@@ -230,6 +230,12 @@ main {
   color: var(--secondary);
 }
 
+@media screen and (min-width: 980px) {
+  {}
+}
+  @media screen and (min-width: 768px) {
+   {}
+  }
 /* portfolio project images */
 /* TODO: Add portfolio project images here*/
 
