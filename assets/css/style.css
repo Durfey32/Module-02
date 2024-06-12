@@ -41,7 +41,7 @@ header {
   flex-wrap: wrap;
   align-items: center;
   background-color: var(--tertiary);
-  box-shadow: 0 5px 35px rgba(146, 204, 206, 0.4);
+  box-shadow: 0 5px 35px rgba(54, 46, 133, 0.4);
 }
 
 header h1 {
@@ -176,6 +176,7 @@ main {
 .flex-item:first-child {
     min-height: 400px;
     flex-basis: 100%;
+    color:aquamarine;
 }
 
 .flex-item:hover {
