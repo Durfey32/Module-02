@@ -85,6 +85,58 @@ main {
   margin-top: 20px;
   margin-bottom: 45px;
 }
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.flex-item {
+  border: 5px solid var(--secondary);
+  background-color: var(--primary);
+  color: var(--tertiary);
+  min-height: 150px;
+  max-height: 150px;
+  flex-basis: calc(50% - 1em);
+  display: flex;
+  align-items: flex-end;
+  padding: 0 0 20px 0;
+  margin: 0.5em;
+  text-decoration: none;
+  background-blend-mode: soft-light;
+  background-size: 150%;
+  transition: all 0.5s;
+  font-size: 0.9rem;
+}
+.flex-item img {
+  height: 200px;
+  width: 225px;
+}
+/* feature first portfolio item */
+.flex-item:first-child {
+    min-height: 300px;
+    flex-basis: 100%;
+    color:rgb(21, 26, 24);
+}
+
+.flex-item:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.flex-item div {
+  background-color: var(--secondary);
+  padding: 8px 10px;
+}
+
+.flex-item h3 {
+  background-color: var(--secondary);
+  color: var(--tertiary);
+  margin: 0;
+  padding: 10px 10px;
+  font-size: 2.3rem;
+  line-height: 1.65;
+  display: inline;
+}
 
 .hero-banner {
   background: rgb(68, 88, 120);
@@ -96,9 +148,9 @@ main {
   color: var(--light);
   padding: 2% 6%;
   display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
-  text-align: right;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: left;
 }
 
 .hero-banner div {
@@ -112,7 +164,7 @@ main {
   padding: 5px 10px;
   font-size: 2.3rem;
   line-height: 1.2;
-  display: inline;
+  display: block;
 }
 
 .page-wrapper {
@@ -122,6 +174,8 @@ main {
 }
 
 .page-section {
+  background-color: rgb(68, 88, 120);
+  color:  var(--light);
   margin: 25px 0;
   padding: 10px 0;
   display: flex;
@@ -146,50 +200,6 @@ main {
 
 .page-section p {
   margin-bottom: 20px;
-}
-
-.flex-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.flex-item {
-  border: 5px solid var(--secondary);
-  background-color: var(--primary);
-  color: var(--tertiary);
-  min-height: 150px;
-  max-height: 150px;
-  flex-basis: calc(50% - 1em);
-  display: flex;
-  align-items: flex-end;
-  padding: 0 0 20px 0;
-  margin: 0.5em;
-  text-decoration: none;
-  background-blend-mode: soft-light;
-  background-size: 150%;
-  transition: all 0.5s;
-  font-size: 0.9rem;
-}
-
-/* feature first portfolio item */
-.flex-item:first-child {
-    min-height: 300px;
-    flex-basis: 100%;
-    color:rgb(21, 26, 24);
-}
-
-.flex-item:hover {
-  background-color: rgba(0, 0, 0, 0.3);
-}
-
-.flex-item div {
-  background-color: var(--secondary);
-  padding: 8px 10px;
-}
-
-.flex-item h3 {
-  font-size: 1.6rem;
 }
 
 .contact address {
