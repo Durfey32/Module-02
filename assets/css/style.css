@@ -241,11 +241,13 @@ main {
 }
 
 @media screen and (min-width: 980px) {
-  * {display: flex;}
+  .flex-item,.page-section,.hero-banner {
+    flex-direction: inline;
+  }
 }
   @media screen and (min-width: 768px) {
-  * {
-    display: block;
+  .flex-item,.page-section,.hero-banner {
+    display: column;
   }
   }
 /* portfolio project images */
