@@ -94,6 +94,7 @@ main {
 .flex-item {
   border: 5px solid var(--secondary);
   background-color: var(--primary);
+  
   color: var(--tertiary);
   min-height: 150px;
   max-height: 150px;
@@ -142,7 +143,7 @@ main {
   background: rgb(68, 88, 120);
   background-image: url("../images/02-hero-bg.jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
   background-size: cover;
-  background-position: center;
+  background-position: left;
   background-blend-mode: soft-light;
   min-height: 30vh;
   color: var(--light);
@@ -180,6 +181,7 @@ main {
 
 .page-section {
   background-color: rgb(68, 88, 120);
+  background-image: url("../images/02-hero-bg.jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
   color:  var(--light);
   margin: 25px 0;
   padding: 10px 0;
