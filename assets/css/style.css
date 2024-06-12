@@ -174,9 +174,9 @@ main {
 
 /* feature first portfolio item */
 .flex-item:first-child {
-    min-height: 400px;
+    min-height: 300px;
     flex-basis: 100%;
-    color:aquamarine;
+    color:rgb(21, 26, 24);
 }
 
 .flex-item:hover {
