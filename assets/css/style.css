@@ -110,8 +110,8 @@ main {
   font-size: 0.9rem;
 }
 .flex-item img {
-  height: 200px;
-  width: 225px;
+  height: 250px;
+  width: 250px;
 }
 /* feature first portfolio item */
 .flex-item:first-child {
@@ -191,8 +191,8 @@ main {
   align-items: stretch;
   justify-content: space-between;
 }
-  .page-section img{
-  height: 200px;
+.page-section img{
+  height: 250px;
   width: 300px;
 }
 .page-section > h2 {
