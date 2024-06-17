@@ -243,13 +243,21 @@ main {
 @media screen and (min-width: 980px) {
   .flex-item,.page-section,.hero-banner {
     flex-direction: inline;
+    max-width: 100%;
+    padding: 2%;
   }
 }
-  @media screen and (min-width: 768px) {
-  .flex-item,.page-section,.hero-banner {
-    display: column;
+@media screen and (max-width: 768px) {
+  nav {
+    flex-direction: column;
   }
+  .page-section, .hero-banner, .flex-item{
+    flex-direction: column;
+    align-items: center;
+    max-height: fit-content;
+    padding: 2%
   }
+}
 /* portfolio project images */
 /* TODO: Add portfolio project images here*/
 
