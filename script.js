@@ -1,0 +1,7 @@
+const flex = document.querySelector (".flex-item > *")
+const style = window.getComputedStyle (flex)
+.getPropertyValue("height")
+console.log(style)
+const styletwo = window.getComputedStyle(flex)
+console.log(styletwo)
+console.log(flex)
